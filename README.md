@@ -10,7 +10,7 @@ It is easy on the eyes and reminds to the Super Nintendo gem "Super Metroid".
 
 The Varia Theme supports following languages:
 
-✅ advanced PHP
+✅ [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension) (variable substitution, SQL within strings etc.)
 
 ✅ HTML, XML
 
