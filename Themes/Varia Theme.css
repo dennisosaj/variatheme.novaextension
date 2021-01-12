@@ -175,7 +175,7 @@ identifier.core.function,
 definition.function,
 identifier.method, 
 definition.method {
-  color: #F9C74F;
+  color: #77ABFF;
 }
 identifier.argument {
   color: #FF8563;
@@ -227,102 +227,105 @@ comment {
 *********************/
 
 /* Statics */
-advphp-base.static.condition { 
+advphp.static.condition { 
     /* if, else, elseif, foreach, ... */
     color: #FF3E6D; 
     font-style: italic;
 }
-advphp-base.static.processor { 
+advphp.static.processor { 
     /* echo, return, print, ... */
     color: #F9C74F; 
 }
-advphp-base.static.declaration {
+advphp.static.declaration {
     /* new, public, private, ... */
     color: #FF8563;
     font-style: italic;
 }
-advphp-base.static.import {
+advphp.static.import {
     /* include, require, ... */
     color: #6AE0FF;
 }
-advphp-base.static.constant {
+advphp.static.constant {
     /* __DIR__, __METHOD__, ... */
     color: #D18FF0;
 }
-advphp-base.static.wordOperator {
+advphp.static.wordOperator {
     /* AND, OR, XOR, ... */
     color: #69EBD9;
 }
 
 /* CURL */
-advphp-base.curl.keywords {
+advphp.curl.keywords {
     color: #F9C74F; 
 }
 
 /* SQL */
-advphp-base.sql.keywords {
+advphp.sql.keywords {
     color: #F9C74F; 
 }
 
 /* Syntax */
-advphp-base.operator {
+advphp.operator {
     color: #69EBD9;
 }
-advphp-base.bracket {
+advphp.bracket {
     color: #69EBD9;
 }
-advphp-base.delimiter {
+advphp.delimiter {
     color: #69EBD9;
 }
 
 /* Variables */
-advphp-base.identifier.variable.prefix {
+advphp.identifier.variable.prefix {
     color: #69EBD9;
 }
-advphp-base.identifier.variable.name {
+advphp.identifier.variable.name {
     color: #EAFFFF; 
     /* text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25); */
 }
-advphp-base.identifier.variable.this {
-    color: #B9E981;
+advphp.identifier.variable.this {
+    color: #FF6774;
 }
-advphp-base.string.variableSubstitution {
+advphp.string.variableSubstitution {
     color: #77ABFF; 
 }
 
 /* Functions */
-advphp-base.identifier.function.keyword {
+advphp.identifier.function.keyword {
     color: #F9C74F;
 }
-advphp-base.identifier.function.name {
+advphp.identifier.function.name {
     color: #77ABFF;
 }
-advphp-base.string.block.delimiter {
+advphp.string.block.delimiter {
     background-color: #69EBD9;
 }
-advphp-base.identifier.parameter.prefix {
+advphp.identifier.parameter.prefix {
     color: #69EBD9;
 }
-advphp-base.identifier.parameter.name {
-    color: #FFAC00;
+advphp.identifier.parameter.name {
+    color: #B9E981;
 }
 
 /* Objects */
-advphp-base.identifier.object.name {
+advphp.identifier.object.name {
     color: #D18FF0;
 }
 
 /* Strings */
-advphp-base.string,
-advphp-base.value.string,
-advphp-base.string.doubleQuote,
-advphp-base.string.singleQuote, {
+advphp.string,
+advphp.value.string,
+advphp.string.doubleQuote,
+advphp.string.singleQuote, 
+advphp.string.nowdoc, 
+advphp.string.heredoc {
     color: #8282BE;
 }
-advphp-base.string.backTic {
+advphp.backTic.string {
     color: #FF8563;
     font-style: italic;
 }
+
 
 /*********************
 * Regex
@@ -466,4 +469,81 @@ terminal.bright-cyan {
 terminal.white,
 terminal.bright-white {
   color: #CCCCCC;
+}
+
+/*********************
+* JavaScript
+*********************/
+/* Keywords */
+javascript.keyword {
+    color: #D18FF0;
+}
+
+javascript.keyword.class {
+    color: #FF8563;
+    font-style: italic;
+}
+
+javascript.keyword.extends {
+    color: #FFC957;
+}
+javascript.identifier.type.class.name,
+javascript.identifier.type.class.superclass {
+    color: #D18FF0;
+    font-weight: normal;
+}
+
+/* Identifiers */
+javascript.identifier.method,
+javascript.identifier.function,
+javascript.identifier.function.name {
+    color: #77ABFF;
+}
+javascript.identifier.argument.name {
+    color: #FF8563;
+    font-style: italic; 
+}
+javascript.identifier,
+javascript.identifier.name {
+    color: #FFFFFF;
+}
+javascript.identifier.property {
+    color: #B9E981;
+}
+javascript.identifier.constant {
+    color: #FFC957;
+}
+javascript.identifier.core.global {
+    color: #FFC957;
+}
+javascript.identifier.core.function {
+    color: #FFC957;
+    font-style: italic;
+}
+
+/* Values */
+javascript.value.null,
+javascript.value.boolean,
+javascript.value.number.hex,
+javascript.value.number {
+    color: #FF8563;
+}
+
+/* Strings */
+javascript.string.backtick-quoted,
+javascript.string.double-quoted,
+javascript.string.single-quoted {
+    color: #8282BE;
+}
+javascript.string.regex {
+    color: #FFC957;
+}
+
+/* Operators */
+javascript.operator,
+javascript.bracket,
+javascript.comma,
+javascript.semicolon,
+javascript.separator {
+    color: #69EBD9;
 }

@@ -1,6 +1,10 @@
+## Version 1.1.0
+
+- add better JavaScript highlighting
+
 ## Version 1.0.1
 
-- add CURL statuc keywords highlighting for [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension)
+- add CURL static keywords highlighting for [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension)
 
 ## Version 1.0.0
 
