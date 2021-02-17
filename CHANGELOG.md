@@ -1,3 +1,7 @@
+## Version 1.1.1
+
+- add Wordpress keywords highlighting for [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension)
+
 ## Version 1.1.0
 
 - add better JavaScript highlighting

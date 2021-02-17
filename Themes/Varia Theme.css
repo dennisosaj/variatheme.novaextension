@@ -254,6 +254,11 @@ advphp.static.wordOperator {
     color: #69EBD9;
 }
 
+/* WP Constants */
+advphp.wp.keywords {
+    color: #F9C74F; 
+}
+
 /* CURL */
 advphp.curl.keywords {
     color: #F9C74F; 
