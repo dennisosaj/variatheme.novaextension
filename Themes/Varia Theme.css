@@ -320,6 +320,11 @@ advphp.identifier.object.name {
     color: #D18FF0;
 }
 
+/* Namespace */
+advphp.definition.namespace {
+    color: #D18FF0;
+}
+
 /* Strings */
 advphp.string,
 advphp.value.string,
@@ -333,7 +338,6 @@ advphp.backTic.string {
     color: #FF8563;
     font-style: italic;
 }
-
 
 /*********************
 * Regex

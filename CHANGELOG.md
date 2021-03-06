@@ -1,3 +1,7 @@
+## Version 1.1.3
+
+- add namespace highlighting for [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension)
+
 ## Version 1.1.2
 
 - add semicolon highlighting for [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension)
