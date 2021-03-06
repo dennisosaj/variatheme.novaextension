@@ -279,6 +279,9 @@ advphp.bracket {
 advphp.delimiter {
     color: #69EBD9;
 }
+advphp.semicolon {
+    color: #FF6774;
+}
 
 /* Variables */
 advphp.identifier.variable.prefix {
