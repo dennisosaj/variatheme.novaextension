@@ -1,3 +1,7 @@
+## Version 1.2.0
+
+- add new PHP highlighting since Nova 7
+
 ## Version 1.1.3
 
 - add namespace highlighting for [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension)

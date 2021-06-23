@@ -12,6 +12,8 @@ The Varia Theme supports following languages:
 
 ✅ [advanced PHP](https://github.com/dennisosaj/advancedphp.novaextension) (variable substitution, SQL within strings etc.)
 
+✅ PHP
+
 ✅ HTML, XML
 
 ✅ CSS, SCSS

@@ -340,6 +340,127 @@ advphp.backTic.string {
 }
 
 /*********************
+* PHP
+*********************/
+php.comment.single,
+php.comment.block {
+    color: rgba(145, 176, 145, 0.3);
+    font-style: italic;
+}
+
+php.bracket,
+php.string.nowdoc.delimiter,
+php.string.nowdoc.identifier,
+php.string.heredoc.delimiter,
+php.string.heredoc.identifier, 
+php.string.double-quoted.delimiter,
+php.string.single-quoted.delimiter,
+php.string.backtick.delimiter  {
+    color: #69EBD9;
+}
+
+php.string.escape,
+php.string.backtick.escape {
+    color: #F9C74F;
+}
+php.separator {
+    color: #69EBD9;
+}
+php.operator {
+    color: #69EBD9;
+}
+
+php.keyword.construct {
+    color: #F9C74F;
+}
+php.keyword.condition {
+    color: #FF3E6D; 
+    font-style: italic;
+}
+php.keyword.modifier {
+    color: #69EBD9;
+}
+php.keyword.statement {
+    color: #69EBD9;
+}
+php.keyword.operator {
+    color: #69EBD9;
+}
+
+php.type.identifier.name {
+    color: #D18FF0;
+    font-weight: normal;
+}
+
+php.definition.identifier.method.name,
+php.definition.identifier.function.name {
+    color: #77ABFF; 
+}
+php.definition.identifier.constant {
+    color: #D18FF0;
+}
+php.definition.property.identifier.prefix {
+    color: #69EBD9;
+}
+php.definition.property.identifier.name {
+    color: #EAFFFF; 
+}
+php.definition.property.semicolon {
+    color: #FF6774;
+}
+
+php.identifier.argument.name {
+    color: #B9E981;
+}
+php.identifier.argument.prefix {
+    color: #69EBD9;
+}
+
+php.insteadof.type.identifier.name,
+php.as.type.identifier.name {
+    color: #D18FF0;
+}
+php.insteadof.operator.static,
+php.as.operator.static {
+    color: #69EBD9;
+}
+php.insteadof.method.identifier.name,
+php.as.method.identifier.name {
+    color: #77ABFF; 
+}
+
+php.keyword.self {
+    color: #FF6774;
+}
+php.keyword.self.prefix {
+    color: #69EBD9;
+}
+php.identifier.variable.name {
+    color: #EAFFFF;
+}
+php.identifier.variable.prefix {
+    color: #69EBD9;
+}
+
+php.value.null,
+php.value.boolean,
+php.value.number.binary,
+php.value.number.octal,
+php.value.number.hexadecimal,
+php.value.number.decimal {
+    color: #FF8563;
+}
+
+php.identifier.constant {
+    color: #D18FF0;
+}
+
+php.curl.string-keyword,
+php.sql.string-keyword {
+    color: #F9C74F;
+}
+
+/*********************
 * Regex
 *********************/
 
